@@ -1,6 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
-  background: #9f5f8027;
+  background: #f5ff6d;
   margin: 0;
 }
 
@@ -11,7 +11,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #9f5f80;
+  background-color: #f5e504;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -20,8 +20,8 @@ body {
 }
 
 .navbar a {
-  font-weight: 200;
-  color: white;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -36,10 +36,11 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #9f5f80; /*background color to blue*/
+  background: #efff10; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
   display: flex;
   flex-direction: column;
+  text-shadow: 2px 2px #000000;
 }
 
 .jumbotron-text {
@@ -80,7 +81,8 @@ body {
 }
 
 .social-footer {
-  color: #9f5f80;
+  color: #ffe600;
+  text-shadow: 1px 1px #000000;
 }
 
 /*ARROW LINK*/
@@ -101,7 +103,7 @@ body {
   margin-bottom: 50px;
 }
 #up-arrow a {
-  color: #9f5f80;
+  color: #eede03;
   margin-top: 50px;
   font-size: 30px;
 }
@@ -148,17 +150,19 @@ body {
 }
 
 h2 {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 2rem;
-  color: #9f5f80;
+  color: #ff9741;
   text-transform: uppercase;
   text-align: center;
+  text-shadow: 1px 1px #000000;
 }
 
 .content-body {
-  line-height: 1.5;
+  line-height: 1.8;
   color: rgba(0, 0, 0, 0.75);
   text-align: center;
+  font-size:large;
 }
 
 /*EDUCATION*/
@@ -186,8 +190,8 @@ h2 {
 
 h4 {
   margin: 0;
-  font-weight: 400;
-  color: grey;
+  font-weight: 600;
+  color: rgb(201, 83, 15);
 }
 
 .job-title {
@@ -234,11 +238,12 @@ h4 {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: white;
-  background: #9f5f80;
+  color: black;
+  background: #f5e504;
   list-style: none;
   cursor: default;
   font-size: 1.2em;
+  text-shadow: 1px 1px whitesmoke;
 }
 
 /*CONTACT*/
